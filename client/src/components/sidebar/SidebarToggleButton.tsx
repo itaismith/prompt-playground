@@ -47,7 +47,7 @@ const Pointy: React.FC<{ className?: string }> = (props) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={`w-3 h-3 text-inherit ${props.className}`}
+      className={`w-3 h-3 text-gray-900 ${props.className}`}
     >
       <path
         strokeLinecap="round"

@@ -46,7 +46,9 @@ export const UIContextProvider: React.FC<UIContextProviderProps> = (props) => {
     setAppErrors({});
   }, []);
 
-  useEffect(() => {}, [appErrors]);
+  useEffect(() => {
+    setDeleting("");
+  }, [showChatMenu]);
 
   return (
     <UIContext.Provider

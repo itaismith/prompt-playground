@@ -1,12 +1,7 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import SidebarToggleButton from "./SidebarToggleButton";
 import UIContext from "../../context/UIContext";
-import {
-  ExclamationTriangleIcon,
-  PencilSquareIcon,
-} from "@heroicons/react/24/outline";
 import NewChatButton from "./NewChatButton";
-import ChatModel from "../../model/ChatModel";
 import ChatList from "./ChatList";
 import ErrorBanner from "../../layouts/ErrorBanner";
 
